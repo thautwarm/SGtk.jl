@@ -19,3 +19,16 @@ end
 
 @isdefined(SyslabCC) || main()
 ```
+
+# Build C library
+
+You need to install `gtk4` system-wide, then run the following command to build the shared library.
+
+```sh
+gcc -shared -fPIC $(pkg-config --cflags gtk4) small_gtk.c -o sgtk.dll $(pkg-config --libs gtk4)
+```
+
+About `gtk4` installation:
+
+1. msys2: `pacman -S mingw-w64-ucrt-x86_64-gtk4`
+2. Ubuntu 22.04: `sudo apt install libgtk-4-dev`
