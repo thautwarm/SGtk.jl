@@ -2,7 +2,7 @@
 
 AOT-compatible Gtk4 binding for Julia.
 
-P.S: I might present a full example when getting the permission from the example author.
+P.S: I might present a full example once I got the permission from the example author.
 
 This basically adopts Gtk4.jl's API, but with strict type stability using Julia generated functions and some FFI techniques.
 
