@@ -1,0 +1,4 @@
+name = "SGtk"
+uuid = "f65d7859-5d1a-44da-b659-405296034721"
+authors = ["thautwarm <twshere@outlook.com>"]
+version = "0.1.0"
